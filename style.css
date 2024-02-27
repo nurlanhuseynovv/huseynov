@@ -6,32 +6,141 @@ body {
 a {
   color: orange;
 }
-a:hover {
-  color: black;
+
+#box .box {
+  width: 170px;
+  height: 170px;
+  border: 2px solid;
+  background-color: #759beb;
+  border: 3px solid #034504;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+#box .minibox {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+#box .minibox h3 {
+  font-size: 20px;
+  color: white;
+  width: 75px;
+  height: 75px;
+  background-color: #1627db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#box .minibox h3:hover {
+  transition: 2s;
+  width: 140px;
+  height: 140px;
 }
 
-#box .minibox {
-  width: 150px;
-  height: 150px;
-  border: 2px solid;
-  background-color: #475b19;
-  margin: 8px;
+#demo .box {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12cm;
 }
-#box .miniboxx {
-  width: 150px;
-  height: 150px;
-  border: 2px solid;
-  background-color: #475b19;
-  position: absolute;
-  top: 84px;
-  left: 36cm;
+#demo h3 {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
 }
-#box .miniboox {
-  width: 150px;
-  height: 150px;
-  border: 2px solid;
-  background-color: #475b19;
+#demo .minibox {
+  border: 7px solid #584148;
+  background-color: #584148;
+  width: 200px;
+  height: 100px;
+  border-radius: 7px;
+  margin: 10px;
+}
+#demo .minibox:hover {
+  transition: 2s;
+  background-color: #585888;
+}
+
+#circle .box {
+  display: flex;
+  gap: 3cm;
+}
+#circle .box .minibox {
+  width: 170px;
+  height: 170px;
+  background-color: #B8860B;
+  margin: 10px;
+  border-radius: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#circle .box .minibox h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #f9f5f5;
+}
+#circle .box .minibox:hover {
+  transition: 2s;
+  width: 170px;
+  height: 170px;
+  border-radius: 40px;
+}
+
+#text .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+#text .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  background-color: #4682B4;
+  margin: 10px;
+}
+#text .box .miniboxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  background-color: #4682B4;
+  margin: 10px;
   position: absolute;
-  top: 84px;
-  left: 36cm;
+  top: 1440px;
+  left: 370px;
+}
+
+#TEXT .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+#TEXT .box .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  background-color: #047443;
+  margin: 10px;
+}
+#TEXT .box .miniboxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  background-color: #047443;
+  margin: 10px;
+  position: absolute;
+  top: 1870px;
+  left: 370px;
 }/*# sourceMappingURL=style.css.map */
